@@ -50,7 +50,7 @@ local function SpawnRebound()
         local nextSound = Instance.new("Sound")
         nextSound.Parent = game.Workspace
         nextSound.SoundId = "rbxassetid://71840455801134"
-        nextSound.Volume = 5
+        nextSound.Volume = 99
         nextSound:Play()
         game:GetService("Debris"):AddItem(nextSound, 10)
     end
